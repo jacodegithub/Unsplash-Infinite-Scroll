@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Nunito:wght@200;300;400;500;600&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@300;400;500&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: whitesmoke;
+
+
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+    font-size: 1.5rem;
+    letter-spacing: .4rem;
+}
+
+.loader {
+    border: 16px solid #f3f3f381;
+    border-radius: 50%;
+    border-top: 16px solid #333;
+    width: 120px;
+    height: 128px;
+    animation: spin 2s linear infinite; /* Safari */
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
