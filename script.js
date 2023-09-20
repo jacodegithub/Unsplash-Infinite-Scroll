@@ -46,8 +46,8 @@ function displayPhotos() {
             title: photo.alt_description
         })
 
-        // EVENT LISTENER, CHECK WHEN IMAGE IS FINISHED LOADING
-        img.addEventListener('load', imageLoaded)
+        // EVENT LISTENER, CHECK WHEN EACH IMAGE IS FINISHED LOADING
+        img.addEventListener('load', imageLoaded) // very important line, we are checking for each image to load.
 
         // PUT IMG TAG INSIDE ANCHOR TAG, THEN PUT BOTH INSIDE IMAGE CONTAINER ELEMENT
         item.appendChild(img);
